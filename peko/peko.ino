@@ -20,46 +20,46 @@ void loop() {
   { 
   M5.Lcd.setTextColor(WHITE,TFT_CYAN);
   printEfont("HA↗");
-  WiFi.softAP("HA↗HA↘HA↗HA↘ぺこぺこ");
+  WiFi.softAP(".HA↗HA↘HA↗HA↘ぺこぺこ");
   break;
   }
   case 1:
   { 
   M5.Lcd.setTextColor(TFT_CYAN,WHITE);
   printEfont("HA↘");
-  WiFi.softAP("HA↘HA↗HA↘ぺこぺこ");
+  WiFi.softAP(".HA↘HA↗HA↘ぺこぺこ");
   break;
   }
   case 2:
   { 
   M5.Lcd.setTextColor(WHITE,TFT_CYAN);
   printEfont("HA↗");
-  WiFi.softAP("HA↗HA↘ぺこぺこ");
+  WiFi.softAP(".HA↗HA↘ぺこぺこ");
   break;
   }
   case 3:
   { 
   M5.Lcd.setTextColor(TFT_CYAN,WHITE);
   printEfont("HA↘");
-  WiFi.softAP("HA↘ぺこぺこ");
+  WiFi.softAP(".HA↘ぺこぺこ");
   break;
   }
   case 4:
   { 
   M5.Lcd.setTextColor(WHITE,TFT_CYAN);
   printEfont("ぺこ");
-  WiFi.softAP("ぺこぺこ");
+  WiFi.softAP(".ぺこぺこ");
   break;
   }
   case 5:
   { 
   M5.Lcd.setTextColor(TFT_CYAN,WHITE);
   printEfont("ぺこ");
-  WiFi.softAP("ぺこ");
+  WiFi.softAP(".ぺこ");
   break;
   }
   }
-  delay(1000);
+  delay(3000);
   M5.Lcd.setCursor(0,0);
   i++;
 }
